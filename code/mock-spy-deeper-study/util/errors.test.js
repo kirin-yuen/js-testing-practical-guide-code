@@ -6,7 +6,7 @@ import {
 import {
     HttpError,
     ValidationError
-} from "../errors";
+} from "./errors";
 
 describe('Test HttpError', () => {
     test('should get the correct property from the instance', () => {
